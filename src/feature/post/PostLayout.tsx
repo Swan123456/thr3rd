@@ -18,6 +18,7 @@ export const PostLayout = ({
   user, 
   createdAt, 
   postId,
+  children,
 }: PostLayoutProps) => {
   return (
     <div className={clsx('flex w-full flex-row items-start p-4', className)}>
@@ -40,6 +41,7 @@ export const PostLayout = ({
       </button>
     </div>
         </Link>
+        {children}
       </div>
     </div>
   );
