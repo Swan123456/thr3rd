@@ -6,20 +6,15 @@
       "static/css/css-app_globals_css-node_modules_pnpm_next_14_2_1_react-dom_18_2_0_react_18_2_0__react_18_2_0-7fd5ac.css",
       "static/chunks/app/layout.js"
     ],
-    "/profile/page": [
+    "/write/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/profile/page.js"
+      "static/chunks/app/write/page.js"
     ],
     "/(home)/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(home)/page.js"
-    ],
-    "/write/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/write/page.js"
     ]
   }
 }
