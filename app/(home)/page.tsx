@@ -9,9 +9,12 @@ export default async function Home() {
 
   const posts = await getLatestPosts();
 
-  return <div>
-    {posts.map(p => (
-      <Post post={p} key={p.id} />
-    ))}
-  </div>;
+  return ( 
+    <div className="divide-y divide-muted">
+      {posts.map(p => (
+        <Post post={p} key={p.id} />
+      ))}
+    </div>
+  );
 }
+
